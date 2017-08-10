@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{D0FF348A-459C-41B1-8D28-A67317E0597D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/ICCPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/Pages/BasePage.cs">
     <Files>
       <File FileName="ICC/ICCPage.xaml" Line="5" Column="1" />
+      <File FileName="ICC/Pages/BasePage.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

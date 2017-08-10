@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+            xmlns="http://xamarin.com/schemas/2014/forms" 
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+            x:Class="ICC.Pages.HomePageEmpty">
+            BackgroundColor="#A8DADC"
+
+    <ContentPage.Content>
+        <StackLayout
+            Orientation="Vertical"
+            Padding="20"
+            Spacing="30" >
+            <BoxView
+                HeightRequest="1" />
+            <Image
+                HorizontalOptions="Center"
+                WidthRequest="300"
+                HeightRequest="280"
+                 />
+            <Frame
+                BackgroundColor="#32cd32"
+                HasShadow="false" >
+        
+        <Grid Padding="5">
+            <Grid.ColumnDefinitions>
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+          <Grid.RowDefinitions>
+            <RowDefinition Height = "auto" />
+            <RowDefinition Height = "auto" />
+            <RowDefinition Height = "auto" />
+            <RowDefinition Height = "auto" />
+            <RowDefinition Height = "*" />
+            <RowDefinition Height = "auto" />
+        </Grid.RowDefinitions>
+
+                <Label 
+                    Grid.Row="0" Grid.Column="0"
+                        x:Name="defaultMessage" 
+                        Text="You Currently don't have any media"
+                        TextColor="White" />
+                
+
+
+
+
+            </Frame>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

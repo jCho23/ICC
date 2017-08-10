@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using ICC.Pages;
 
 namespace ICC
 {
@@ -8,7 +9,7 @@ namespace ICC
         {
             InitializeComponent();
 
-            MainPage = new ICCPage();
+            MainPage = new NavigationPage(new HomePageEmpty());
         }
 
         protected override void OnStart()

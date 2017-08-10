@@ -1,9 +1,16 @@
 ﻿<Properties StartupConfiguration="{D0FF348A-459C-41B1-8D28-A67317E0597D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/ViewModels/BaseViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/obj/Debug/ICC.Pages.HomePageEmpty.xaml.g.cs">
     <Files>
       <File FileName="ICC/ICCPage.xaml" Line="5" Column="1" />
-      <File FileName="ICC/Pages/BasePage.cs" Line="20" Column="4" />
-      <File FileName="ICC/ViewModels/BaseViewModel.cs" Line="28" Column="4" />
+      <File FileName="ICC/Pages/BasePage.cs" Line="14" Column="4" />
+      <File FileName="ICC/ViewModels/BaseViewModel.cs" Line="22" Column="36" />
+      <File FileName="ICC/Pages/HomePageEmpty.xaml" Line="18" Column="36" />
+      <File FileName="ICC/Pages/HomePageEmpty.xaml.cs" Line="1" Column="1" />
+      <File FileName="ICC/App.xaml" Line="7" Column="1" />
+      <File FileName="ICC/App.xaml.cs" Line="18" Column="10" />
+      <File FileName="iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="ICC/obj/Debug/ICC.Pages.HomePageEmpty.xaml.g.cs" Line="19" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

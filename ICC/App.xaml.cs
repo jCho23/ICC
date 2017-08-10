@@ -9,7 +9,7 @@ namespace ICC
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new HomePageEmpty());
+            MainPage = new HomePageEmpty();
         }
 
         protected override void OnStart()

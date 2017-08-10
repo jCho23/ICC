@@ -3,10 +3,10 @@
             xmlns="http://xamarin.com/schemas/2014/forms" 
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
             x:Class="ICC.Pages.HomePageEmpty"
-            BackgroundColor="#A8DADC">
+            BackgroundColor="White">
 
     <AbsoluteLayout >
-        <BoxView Color="#f7f7f7"
+        <BoxView Color="#A8DADC"
             AbsoluteLayout.LayoutBounds="0,0,1,0.55" 
             AbsoluteLayout.LayoutFlags="All"/>
                 <StackLayout 
@@ -19,22 +19,7 @@
                         WidthRequest="300"
                         HeightRequest="280"
                         BackgroundColor="#A8DADC"
-                        Source="XamCamLogo.png"
-                    />
-                    <!--<Label 
-                        Text="$11.95" 
-                        TextColor="#33353a" 
-                        FontSize="60" 
-                        FontAttributes="Bold" 
-                        HorizontalOptions="Center" />
-                    <Button 
-                        Text="Add $7.99 Credit" 
-                        HeightRequest="30" 
-                        BorderRadius="15" 
-                        FontSize="15" 
-                        FontAttributes="Bold" 
-                        BackgroundColor="#1695A3" 
-                        TextColor="White" />-->
+                        Source="XamCamLogo.png" />
                 </StackLayout>
 
                 <StackLayout 
@@ -44,62 +29,21 @@
                         <Label 
                         Text="You currently don't have any media." 
                         HorizontalOptions="Center" 
-                        FontAttributes="Bold" FontSize="15" />
-            <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" FontSize="13">
-Because you can reach people who aren't on
-SkyApp by calling mobile and landline
-numbers, or spending SMS, at low-cost rates.                        
-            </Label>
-        </StackLayout>
+                        FontAttributes="Bold" 
+                        FontSize="15" />
+
+                        <Label 
+                        HorizontalOptions="Center" 
+                        HorizontalTextAlignment="Center" 
+                        FontSize="13"
+                        Text= "Add some videos to enable you to search and playback your company's media."> 
+                        </Label>
+
+                        <Image 
+                        HorizontalOptions="Center"
+                        Source="camera.png"
+                        HeightRequest="140"
+                        Aspect="AspectFit" /> 
+                </StackLayout>
     </AbsoluteLayout>
-
 </ContentPage>
-   
-<!--        <StackLayout
-            Orientation="Vertical"
-            Padding="20"
-            Spacing="30" >
-            <BoxView
-                HeightRequest="1" />
-            <Image
-                HorizontalOptions="Center"
-                WidthRequest="300"
-                HeightRequest="280"
-                Source="XamCamLogo.png"
-                 />
-            <Frame
-                BackgroundColor="#32cd32"
-                HasShadow="false" >
-        
-                <Grid Padding="5">
-                    <Grid.ColumnDefinitions>
-                    </Grid.ColumnDefinitions>
-                
-                        
-                <Grid.RowDefinitions>
-                    <RowDefinition Height = "*" />
-                    <RowDefinition Height = "*" />
-                    <RowDefinition Height = "*" />
-                </Grid.RowDefinitions>
-
-                <Label 
-                    Grid.Row="0" Grid.Column="2"
-                    x:Name="defaultMessage" 
-                    Text="You currently don't have any media."
-                    TextColor="White" />
-                <Label 
-                    Grid.Row="1" Grid.Column="2"
-                    x:Name="defaultMessage2" 
-                    Text="Add some videos to enable you to search and playback your company's media."
-                    TextColor="White" />
-                <Image 
-                    Grid.Row="2" Grid.Column="2"
-                    x:Name="cameraImage"
-                    HorizontalOptions="Center"
-                    Source="camera.png"
-                    Aspect="AspectFit" />  
-            </Grid>
-            </Frame>
-        </StackLayout>
-</ContentPage>
--->

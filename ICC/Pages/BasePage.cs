@@ -1,4 +1,6 @@
 ﻿using System;
+using ICC.ViewModels;
+using Xamarin.Forms;
 
 namespace ICC
 {

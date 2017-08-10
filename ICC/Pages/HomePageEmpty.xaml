@@ -16,6 +16,7 @@
                 HorizontalOptions="Center"
                 WidthRequest="300"
                 HeightRequest="280"
+                Source="XamCamLogo.png"
                  />
             <Frame
                 BackgroundColor="#32cd32"
@@ -25,25 +26,27 @@
             <Grid.ColumnDefinitions>
             </Grid.ColumnDefinitions>
         </Grid>
-
-          <Grid.RowDefinitions>
+                
+        <Grid.RowDefinitions>
             <RowDefinition Height = "auto" />
             <RowDefinition Height = "auto" />
-            <RowDefinition Height = "auto" />
-            <RowDefinition Height = "auto" />
-            <RowDefinition Height = "*" />
             <RowDefinition Height = "auto" />
         </Grid.RowDefinitions>
 
-                <Label 
-                    Grid.Row="0" Grid.Column="0"
-                        x:Name="defaultMessage" 
-                        Text="You Currently don't have any media"
-                        TextColor="White" />
-                
-
-
-
+            <Label 
+                Grid.Row="0" Grid.Column="0"
+                x:Name="defaultMessage" 
+                Text="You currently don't have any media."
+                TextColor="White" />
+            <Label 
+                Grid.Row="1" Grid.Column="0"
+                x:Name="defaultMessage2" 
+                Text="Add some videos to enable you to search and playback your company's media."
+                TextColor="White" />
+            <Image>
+                Grid.Row="2" Grid.Column="0"   
+                Source="camera.png"
+            </Image>
 
             </Frame>
         </StackLayout>

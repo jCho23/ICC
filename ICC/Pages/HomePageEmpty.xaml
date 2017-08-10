@@ -16,6 +16,7 @@
                 AbsoluteLayout.LayoutFlags="All" >
                     <Image
                         HorizontalOptions="Center"
+                        VerticalOptions="Center"
                         WidthRequest="300"
                         HeightRequest="280"
                         BackgroundColor="#A8DADC"

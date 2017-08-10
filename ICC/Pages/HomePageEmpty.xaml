@@ -22,32 +22,34 @@
                 BackgroundColor="#32cd32"
                 HasShadow="false" >
         
-        <Grid Padding="5">
-            <Grid.ColumnDefinitions>
-            </Grid.ColumnDefinitions>
-        </Grid>
-                
-        <Grid.RowDefinitions>
-            <RowDefinition Height = "auto" />
-            <RowDefinition Height = "auto" />
-            <RowDefinition Height = "auto" />
-        </Grid.RowDefinitions>
+                <Grid Padding="5">
+                    <Grid.ColumnDefinitions>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+                        
+                <Grid.RowDefinitions>
+                    <RowDefinition Height = "auto" />
+                    <RowDefinition Height = "auto" />
+                    <RowDefinition Height = "auto" />
+                </Grid.RowDefinitions>
 
-            <Label 
-                Grid.Row="0" Grid.Column="0"
-                x:Name="defaultMessage" 
-                Text="You currently don't have any media."
-                TextColor="White" />
-            <Label 
-                Grid.Row="1" Grid.Column="0"
-                x:Name="defaultMessage2" 
-                Text="Add some videos to enable you to search and playback your company's media."
-                TextColor="White" />
-            <Image>
-                Grid.Row="2" Grid.Column="0"   
-                Source="camera.png"
-            </Image>
-
+                <Label 
+                    Grid.Row="0" Grid.Column="2"
+                    x:Name="defaultMessage" 
+                    Text="You currently don't have any media."
+                    TextColor="White" />
+                <Label 
+                    Grid.Row="1" Grid.Column="2"
+                    x:Name="defaultMessage2" 
+                    Text="Add some videos to enable you to search and playback your company's media."
+                    TextColor="White" />
+                <Image 
+                    Grid.Row="2" Grid.Column="2"
+                    x:Name="cameraImage"
+                    HorizontalOptions="Center"
+                    Source="camera.png"
+                    Aspect="AspectFit" />  
+            
             </Frame>
         </StackLayout>
 	</ContentPage.Content>

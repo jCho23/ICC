@@ -12,7 +12,7 @@ namespace ICC.Pages
         {
             InitializeComponent();
 
-            listView.ItemsSource = VideoData.ObservableStringList;
+            listView.ItemsSource = VideoData.VideoDatas.ObservableStringList;
         }
     }
 }

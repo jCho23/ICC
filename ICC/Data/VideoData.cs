@@ -15,7 +15,7 @@ namespace ICC.Data
 
         public class VideoDatas
         {
-            public static ObservableCollection<string> ObeservableStringList = new ObservableCollection<string>
+            public static ObservableCollection<string> ObservableStringList = new ObservableCollection<string>
             {
                 "1","2","3"
             };

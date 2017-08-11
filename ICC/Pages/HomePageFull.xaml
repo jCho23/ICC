@@ -5,29 +5,21 @@
     x:Class="ICC.Pages.HomePageFull"
     Padding="0,20,0,0">
 
-    <ListView x:Name="listView">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
-                    <StackLayout 
-                        Padding="5"
-                        Orientation="Horizontal">
-                            <Image
-                                Source="{Binding Image}"/>
-                            <Label 
-                                Text="{Binding Name}"/>
-                    </StackLayout>
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
+    <ListView 
+        x:Name="listView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout 
+                            Padding="5"
+                            Orientation="Horizontal">
+                                <Image
+                                    Source="{Binding Image}"/>
+                                <Label 
+                                    Text="{Binding Name}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
     </ListView>
-
-
-
-
-
-
-
-
-
 </ContentPage>

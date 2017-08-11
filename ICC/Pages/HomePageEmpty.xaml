@@ -22,7 +22,7 @@
                         HeightRequest="280"
                         BackgroundColor="#A8DADC"
                         Source="XamCamLogo.png" />
-                </StackLayout>
+            </StackLayout>
 
                 <StackLayout 
                     Padding="40, 0" Spacing="20"
@@ -47,5 +47,6 @@
                         HeightRequest="140"
                         Aspect="AspectFit" /> 
                 </StackLayout>
+        
     </AbsoluteLayout>
 </ContentPage>

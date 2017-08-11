@@ -9,7 +9,8 @@
         <BoxView Color="#A8DADC"
             AbsoluteLayout.LayoutBounds="0,0,1,0.55" 
             AbsoluteLayout.LayoutFlags="All"/>
-                <StackLayout 
+
+            <StackLayout 
                 HorizontalOptions="Center" 
                 VerticalOptions="Center"
                 AbsoluteLayout.LayoutBounds="0,0,1,0.3" 

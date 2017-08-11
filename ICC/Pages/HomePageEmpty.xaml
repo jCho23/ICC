@@ -10,19 +10,22 @@
             AbsoluteLayout.LayoutBounds="0,0,1,0.55" 
             AbsoluteLayout.LayoutFlags="All"/>
 
-            <StackLayout 
+            <!--<StackLayout 
                 HorizontalOptions="Center" 
                 VerticalOptions="Center"
                 AbsoluteLayout.LayoutBounds="0,0,1,0.3" 
-                AbsoluteLayout.LayoutFlags="All" >
+                AbsoluteLayout.LayoutFlags="All" >-->
                     <Image
                         HorizontalOptions="Center"
                         VerticalOptions="Center"
                         WidthRequest="300"
-                        HeightRequest="280"
+                        HeightRequest="360"
                         BackgroundColor="#A8DADC"
-                        Source="XamCamLogo.png" />
-            </StackLayout>
+                        Aspect="AspectFit"
+                        Source="XamCamLogo.png" 
+        AbsoluteLayout.LayoutBounds="0,0,1,0.3" 
+                AbsoluteLayout.LayoutFlags="All"/>
+            <!--</StackLayout>-->
 
                 <StackLayout 
                     Padding="40, 0" Spacing="20"
@@ -31,7 +34,7 @@
                         <Label 
                         Text="You currently don't have any media." 
                         HorizontalOptions="Center" 
-                        FontAttributes="Bold" 
+                        FontAttributes="Bold"
                         FontSize="15" />
 
                         <Label 
@@ -44,7 +47,7 @@
                         <Image 
                         HorizontalOptions="Center"
                         Source="camera.png"
-                        HeightRequest="140"
+                        HeightRequest="130"
                         Aspect="AspectFit" /> 
                 </StackLayout>
         

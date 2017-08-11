@@ -5,7 +5,7 @@
     x:Class="ICC.Pages.HomePageFull"
     Padding="0,20,0,0">
 
-    <ListView>
+    <ListView x:Name="listView">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>

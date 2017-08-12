@@ -23,8 +23,8 @@
                         BackgroundColor="#A8DADC"
                         Aspect="AspectFit"
                         Source="XamCamLogo.png" 
-        AbsoluteLayout.LayoutBounds="0,0,1,0.3" 
-                AbsoluteLayout.LayoutFlags="All"/>
+                        AbsoluteLayout.LayoutBounds="0,0,1,0.55" 
+                        AbsoluteLayout.LayoutFlags="All"/>
             <!--</StackLayout>-->
 
                 <StackLayout 

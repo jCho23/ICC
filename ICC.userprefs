@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{D0FF348A-459C-41B1-8D28-A67317E0597D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/Pages/HomePageFull.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/Pages/HomePageEmpty.xaml">
     <Files>
       <File FileName="ICC/Pages/HomePageEmpty.xaml" Line="60" Column="19" />
       <File FileName="ICC/Pages/HomePageFull.xaml.cs" Line="15" Column="17" />

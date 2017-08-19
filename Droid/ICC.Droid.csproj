@@ -109,10 +109,12 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable\XamCamLogo.png" />
     <AndroidResource Include="Resources\drawable\camera.png" />
-    <AndroidResource Include="Resources\drawable\Home.png" />
     <AndroidResource Include="Resources\drawable\SettingsIcon.png" />
     <AndroidResource Include="Resources\drawable\SettingsIcon%402x.png" />
     <AndroidResource Include="Resources\drawable\SettingsIcon%403x.png" />
+    <AndroidResource Include="Resources\drawable\HomeIcon.png" />
+    <AndroidResource Include="Resources\drawable\HomeIcon%402x.png" />
+    <AndroidResource Include="Resources\drawable\HomeIcon%403x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />

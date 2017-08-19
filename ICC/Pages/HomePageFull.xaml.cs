@@ -6,7 +6,7 @@ using ICC.Data;
 
 namespace ICC.Pages
 {
-    public partial class HomePageFull : ContentPage
+    public partial class HomePageFull : TabbedPage
     {
         public HomePageFull()
         {

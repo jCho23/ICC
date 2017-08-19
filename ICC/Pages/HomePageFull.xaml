@@ -28,7 +28,7 @@
     </ContentPage>
 
 
-    <ContentPage
+<!--    <ContentPage
         Title= "Settings"
         Icon= "SettingsIcon.png" >
 
@@ -38,6 +38,6 @@
                 Text= "Welcome to Settings" />
 
         </StackLayout>
-    <ContentPage>
+    <ContentPage-->
 
 </TabbedPage>

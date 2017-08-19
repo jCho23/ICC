@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{D0FF348A-459C-41B1-8D28-A67317E0597D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/Pages/HomePageEmpty.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/App.xaml.cs">
     <Files>
-      <File FileName="ICC/Pages/HomePageEmpty.xaml" Line="23" Column="21" />
+      <File FileName="ICC/Pages/HomePageEmpty.xaml" Line="47" Column="9" />
       <File FileName="ICC/Pages/BasePage.cs" Line="14" Column="4" />
       <File FileName="ICC/Pages/HomePageFull.xaml" Line="26" Column="1" />
       <File FileName="ICC/Pages/HomePageFull.xaml.cs" Line="19" Column="1" />
       <File FileName="ICC/Data/VideoData.cs" Line="14" Column="9" />
-      <File FileName="ICC/Pages/HomePageEmpty.xaml.cs" Line="1" Column="1" />
+      <File FileName="ICC/Pages/HomePageEmpty.xaml.cs" Line="9" Column="6" />
       <File FileName="ICC/ViewModels/BaseViewModel.cs" Line="1" Column="1" />
+      <File FileName="ICC/App.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

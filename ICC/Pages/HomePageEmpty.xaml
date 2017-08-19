@@ -4,7 +4,9 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
             x:Class="ICC.Pages.HomePageEmpty"
             BackgroundColor="White">
- <ContentPage>
+ <ContentPage 
+        Title= "Home"
+        Icon= "Home.png">
     <AbsoluteLayout >
         <BoxView Color="#A8DADC"
             AbsoluteLayout.LayoutBounds="0,0,1,0.55" 
@@ -44,7 +46,21 @@
                         HeightRequest="130"
                         Aspect="AspectFit" /> 
                 </StackLayout>
-        
         </AbsoluteLayout>
     </ContentPage>
+
+    <ContentPage
+        Title= "Settings"
+        Icon= "SettingsIcon.png" > 
+
+        <StackLayout
+            VerticalOptions= "Center"
+            HorizontalOptions= "Center" >
+            
+                <Label 
+                    Text= "Welcome to Settings" />
+            
+        </StackLayout>
+    </ContentPage>
+    
 </TabbedPage>

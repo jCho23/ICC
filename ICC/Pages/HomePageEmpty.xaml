@@ -6,7 +6,7 @@
             BackgroundColor="White">
  <ContentPage 
         Title= "Home"
-        Icon= "HomeIcon.png">
+        Icon= "SettingsIcon.png">
     <AbsoluteLayout >
         <BoxView Color="#A8DADC"
             AbsoluteLayout.LayoutBounds="0,0,1,0.55" 

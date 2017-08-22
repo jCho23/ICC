@@ -4,8 +4,7 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
             x:Class="ICC.Pages.HomePageEmpty"
             BackgroundColor="White"
-
-             xmlns:local= "clr-namespace:ICC.Pages" >
+            xmlns:local= "clr-namespace:ICC.Pages" >
  <ContentPage 
         Title= "Home"
         Icon= "SettingsIcon.png">
@@ -16,18 +15,15 @@
 
                 <Image
                     HorizontalOptions="Center" VerticalOptions="Center"
-                    WidthRequest="300"
-                    HeightRequest="360"
+                    AbsoluteLayout.LayoutBounds="0, 0, 1, 0.55" AbsoluteLayout.LayoutFlags="All"
+                    WidthRequest= "300" HeightRequest= "360"
                     BackgroundColor="#A8DADC"
                     Aspect="AspectFit"
-                    Source="XamCamLogo.png" 
-                    AbsoluteLayout.LayoutBounds="0,0,1,0.55" 
-                    AbsoluteLayout.LayoutFlags="All"/>
+                    Source="XamCamLogo.png" />
 
                 <StackLayout 
-                    Padding="40, 0" Spacing="20"
-                    AbsoluteLayout.LayoutBounds="0, 0.9, 1, 0.3" 
-                    AbsoluteLayout.LayoutFlags="All">
+                    Padding= "40, 0" Spacing= "20"
+                    AbsoluteLayout.LayoutBounds= "0, 0.9, 1, 0.3" AbsoluteLayout.LayoutFlags= "All">
                         <Label 
                         Text="You currently don't have any media." 
                         HorizontalOptions="Center" 
@@ -51,19 +47,5 @@
     </ContentPage>
 
     <local:SettingsPage Title= "Settings Page" Icon= "SettingsIcon.png" /> 
-        
-    <!--<ContentPage
-        Title= "Settings"
-        Icon= "SettingsIcon.png" > 
-
-        <StackLayout
-            VerticalOptions= "Center"
-            HorizontalOptions= "Center" >
-            
-                <Label 
-                    Text= "Welcome to Settings" />
-            
-        </StackLayout>
-    </ContentPage>-->
     
 </TabbedPage>

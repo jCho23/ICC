@@ -25,6 +25,8 @@ namespace ICC.Pages
         {
             base.OnAppearing();
 
+
+            //CrossMediaManager.Current.Play(videoModel.VideoUrl, MediaFileType.Video);
 			//Make call through ViewModel to get updated list of videos from Azure Function
 			//ViewModel.UpdateVideos()
 

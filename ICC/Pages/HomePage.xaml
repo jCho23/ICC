@@ -4,10 +4,10 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
             x:Class="ICC.Pages.HomePageEmpty"
             BackgroundColor="White"
-             
-            xmlns:locaL= "clr-namespace:ICC.Views">
+            xmlns:pages= "clr-namespace:ICC.Pages"
+            xmlns:views= "clr-namespace:ICC.Views">
 
-            <!--xmlns:local= "clr-namespace:ICC.Pages"-->
+     
     
  <!--<ContentPage 
         Title= "Home"
@@ -52,10 +52,13 @@
         </AbsoluteLayout>
     </ContentPage>-->
 
-<!--
-    <local:SettingsPage Title= "Settings Page" Icon= "SettingsIcon.png" /> -->
+    <ContentPage 
+        Title= "No Videos" Icon= "SettingsIcon.png" >
+            <views:NoVideosLayout/>
+    </ContentPage>
 
-    <local:NoVideosLayout Title= "No Videos" Icon= "SettingsIcon.png" />
+   <!-- <views:NoVideosLayout: Title= "No Videos" Icon= "SettingsIcon.png"  />-->
+    <pages:SettingsPage Title= "Settings Page" Icon= "SettingsIcon.png" />
 
 
 </TabbedPage>

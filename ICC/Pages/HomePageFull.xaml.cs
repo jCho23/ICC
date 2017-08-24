@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 using Xamarin.Forms;
-using ICC.Data;
+
 
 namespace ICC.Pages
 {
@@ -12,7 +12,7 @@ namespace ICC.Pages
         {
             InitializeComponent();
 
-            listView.ItemsSource = VideoData.VideoDatas.ObservableStringList;
+            //listView.ItemsSource = VideoData.VideoDatas.ObservableStringList;
         }
     }
 }

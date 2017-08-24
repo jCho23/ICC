@@ -10,6 +10,8 @@ namespace ICC.Views
         public VideosListLayout()
         {
             InitializeComponent();
-        }
+
+			//listView.ItemsSource = VideoData.VideoDatas.ObservableStringList;
+		}
     }
 }

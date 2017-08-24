@@ -17,6 +17,10 @@
                         Text= "Name"
                         Detail= "June" />
 
+                    <SwitchCell
+                        Text= "Enable Push Notifications"
+                        On= "true" />
+
 
 
                 </TableSection>

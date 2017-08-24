@@ -7,8 +7,6 @@
             xmlns:pages= "clr-namespace:ICC.Pages"
             xmlns:views= "clr-namespace:ICC.Views">
 
-     
-    
  <!--<ContentPage 
         Title= "Home"
         Icon= "SettingsIcon.png">
@@ -58,7 +56,7 @@
     </ContentPage>
 
    <!-- <views:NoVideosLayout: Title= "No Videos" Icon= "SettingsIcon.png"  />-->
-    <pages:SettingsPage Title= "Settings Page" Icon= "SettingsIcon.png" />
+    <pages:SettingsPage Title= "Settings" Icon= "SettingsIcon.png" />
 
 
 </TabbedPage>

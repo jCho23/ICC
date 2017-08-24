@@ -19,7 +19,7 @@
                         On= "true" />
 
                     <SwitchCell
-                        Text= "Enable Push Notifications"
+                        Text= "Push Notifications"
                         On= "true" />
                 </TableSection>
 
@@ -35,17 +35,15 @@
                         On= "true" />
                 </TableSection>
 
+                <TableSection
+                    Title= "More">
+
+                    <TextCell
+                        Text= "Feedback" />
+
+                </TableSection>
+
             </TableRoot>
         </TableView.Root>
-
-    </TableView>
-    
-<!--    <StackLayout
-        HorizontalOptions= "Center" VerticalOptions= "Center" >
-            <Label 
-                HorizontalOptions= "Center"
-                Text= "Do More" />
-              
-    </StackLayout>-->
-   
+    </TableView> 
 </ContentPage>

@@ -10,6 +10,10 @@ namespace ICC
             InitializeComponent();
 
             MainPage = new HomePageEmpty();
+
+            var home = new HomePageEmpty();
+
+            HomePageEmpty.MyNewMthod(home);
         }
 
         protected override void OnStart()

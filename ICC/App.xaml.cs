@@ -11,9 +11,9 @@ namespace ICC
 
             MainPage = new HomePageEmpty();
 
-            var home = new HomePageEmpty();
+            //var home = new HomePageEmpty();
 
-            HomePageEmpty.MyNewMthod(home);
+            //HomePageEmpty.MyNewMthod(home);
         }
 
         protected override void OnStart()

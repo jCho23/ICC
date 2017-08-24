@@ -6,12 +6,12 @@ using ICC.Views;
 
 namespace ICC.Pages
 {
-    public partial class HomePageEmpty : TabbedPage
+    public partial class HomePage : TabbedPage
     {
         //private NoVideosLayout noVideoLayout = new NoVideosLayout();
 		//private VideosListLayout videosListLayout = new VideosListLayout();
 
-		public HomePageEmpty()
+		public HomePage()
         {
             InitializeComponent();
         }

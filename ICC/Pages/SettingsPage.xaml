@@ -7,7 +7,22 @@
     <TableView
         Intent= "Settings">
 
+        <TableView.Root>
+            <TableRoot>
 
+                <TableSection
+                    Title= "XamCam Settings" >
+
+                    <TextCell   
+                        Text= "Name"
+                        Detail= "June" />
+
+
+
+                </TableSection>
+
+            </TableRoot>
+        </TableView.Root>
 
     </TableView>
     

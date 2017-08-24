@@ -9,7 +9,7 @@ namespace ICC
         {
             InitializeComponent();
 
-            MainPage = new HomePageEmpty();
+            MainPage = new HomePage();
 
             //var home = new HomePageEmpty();
 

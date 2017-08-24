@@ -4,10 +4,16 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
             x:Class="ICC.Pages.HomePageEmpty"
             BackgroundColor="White"
-            xmlns:local= "clr-namespace:ICC.Pages" >
- <ContentPage 
+             
+            xmlns:locaL= "clr-namespace:ICC.Views">
+
+            <!--xmlns:local= "clr-namespace:ICC.Pages"-->
+    
+ <!--<ContentPage 
         Title= "Home"
         Icon= "SettingsIcon.png">
+
+
     <AbsoluteLayout >
         <BoxView Color="#A8DADC"
             AbsoluteLayout.LayoutBounds="0,0,1,0.55" 
@@ -44,8 +50,12 @@
                         Aspect="AspectFit" /> 
                 </StackLayout>
         </AbsoluteLayout>
-    </ContentPage>
+    </ContentPage>-->
 
-    <local:SettingsPage Title= "Settings Page" Icon= "SettingsIcon.png" /> 
-    
+<!--
+    <local:SettingsPage Title= "Settings Page" Icon= "SettingsIcon.png" /> -->
+
+    <local:NoVideosLayout Title= "No Videos" Icon= "SettingsIcon.png" />
+
+
 </TabbedPage>

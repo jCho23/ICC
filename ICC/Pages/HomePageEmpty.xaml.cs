@@ -8,7 +8,7 @@ namespace ICC.Pages
 {
     public partial class HomePageEmpty : TabbedPage
     {
-        private NoVideosLayout noVideoLayout = new NoVideosLayout();
+        //private NoVideosLayout noVideoLayout = new NoVideosLayout();
 		//private VideosListLayout videosListLayout = new VideosListLayout();
 
 		public HomePageEmpty()
@@ -16,10 +16,10 @@ namespace ICC.Pages
             InitializeComponent();
         }
 
-        public static void MyNewMthod()
-        {
+        //public static void MyNewMthod()
+        //{
            
-        }
+        //}
 
         protected override void OnAppearing()
         {

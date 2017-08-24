@@ -27,17 +27,4 @@
         </ListView>
     </ContentPage>
 
-
-<!--    <ContentPage
-        Title= "Settings"
-        Icon= "SettingsIcon.png" >
-
-        <StackLayout
-            HorizontalOptions= "Center" VerticalOptions= "Center" >
-            <Label
-                Text= "Welcome to Settings" />
-
-        </StackLayout>
-    <ContentPage-->
-
 </TabbedPage>

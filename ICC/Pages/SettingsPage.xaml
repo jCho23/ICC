@@ -13,16 +13,25 @@
                 <TableSection
                     Title= "XamCam Settings" >
 
-                    <TextCell   
-                        Text= "Name"
-                        Detail= "June" />
+                    <SwitchCell   
+                        Text= "Password"
+                        On= "true" />
 
                     <SwitchCell
                         Text= "Enable Push Notifications"
                         On= "true" />
+                </TableSection>
 
+                <TableSection
+                    Title= "Video">
 
+                    <SwitchCell
+                        Text= "Upload HD"
+                        On= "true" />
 
+                    <SwitchCell
+                        Text= "Auto-play on Wi-Fi only"
+                        On= "true" />
                 </TableSection>
 
             </TableRoot>

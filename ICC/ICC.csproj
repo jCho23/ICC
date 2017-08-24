@@ -32,9 +32,6 @@
     <EmbeddedResource Include="Pages\HomePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\HomePageFull.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="Pages\SettingsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -57,9 +54,6 @@
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="Pages\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\HomePageFull.xaml.cs">
-      <DependentUpon>HomePageFull.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\VideoData.cs" />
     <Compile Include="Pages\SettingsPage.xaml.cs">

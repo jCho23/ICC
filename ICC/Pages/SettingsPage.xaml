@@ -11,7 +11,7 @@
             <TableRoot>
 
                 <TableSection
-                    Title= "XamCam Settings" >
+                    Title= "Security and Alerts" >
 
                     <SwitchCell   
                         Text= "Password"

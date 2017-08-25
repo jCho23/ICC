@@ -9,10 +9,11 @@
     xmlns:local="clr-namespace:ICC.Views;assembly=ICC" >
 
     <TableView
-        Intent= "Settings">
+        Intent= "Settings" >
 
         <TableView.Root>
-            <TableRoot>
+            <TableRoot
+                Title= "Settings">
 
                 <TableSection
                     Title= "Security and Alerts" >
@@ -44,6 +45,16 @@
                     <local:TextCellDisclosure
                         Text= "Feedback" />
 
+                    <ViewCell>
+                        <StackLayout
+                                Orientation= "Horizontal"
+                                Padding= "13, 0" >
+                            <Label
+                                VerticalOptions= "Center"
+                                HorizontalOptions= "CenterAndExpand"
+                                Text= "Version 1.0" />
+                        </StackLayout>
+                    </ViewCell>
                 </TableSection>
 
             </TableRoot>

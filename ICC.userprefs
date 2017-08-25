@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{D0FF348A-459C-41B1-8D28-A67317E0597D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/Pages/SettingsPage.xaml">
     <Files>
-      <File FileName="ICC/Pages/HomePage.xaml" Line="55" Column="36" />
+      <File FileName="ICC/Pages/HomePage.xaml" Line="15" Column="5" />
       <File FileName="ICC/Views/NoVideosLayout.xaml" Line="17" Column="35" />
       <File FileName="ICC/Pages/SettingsPage.xaml.cs" Line="13" Column="10" />
       <File FileName="ICC/Pages/HomePage.xaml.cs" Line="9" Column="34" />
-      <File FileName="ICC/App.xaml.cs" Line="19" Column="13" />
+      <File FileName="ICC/App.xaml.cs" Line="10" Column="35" />
       <File FileName="ICC/App.xaml" Line="7" Column="1" />
-      <File FileName="ICC/Pages/SettingsPage.xaml" Line="9" Column="50" />
-      <File FileName="iOS/CustomRenders/TextCellCustomRenderer.cs" Line="7" Column="52" />
+      <File FileName="ICC/Pages/SettingsPage.xaml" Line="51" Column="42" />
+      <File FileName="iOS/CustomRenders/TextCellCustomRenderer.cs" Line="7" Column="34" />
       <File FileName="iOS/Main.cs" Line="21" Column="1" />
+      <File FileName="ICC/obj/Debug/ICC.Pages.SettingsPage.xaml.g.cs" Line="20" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

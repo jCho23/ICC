@@ -95,6 +95,12 @@
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\packages\Xamarin.Forms.2.3.4.231\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
+    <Reference Include="Plugin.MediaManager.Abstractions">
+      <HintPath>..\packages\Plugin.MediaManager.0.4.4\lib\Xamarin.iOS10\Plugin.MediaManager.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.MediaManager">
+      <HintPath>..\packages\Plugin.MediaManager.0.4.4\lib\Xamarin.iOS10\Plugin.MediaManager.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ICC\ICC.csproj">

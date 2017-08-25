@@ -1,19 +1,11 @@
 ﻿<Properties StartupConfiguration="{D0FF348A-459C-41B1-8D28-A67317E0597D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/Views/VideosListLayout.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/App.xaml.cs">
     <Files>
-      <File FileName="ICC/Pages/HomePage.xaml" Line="15" Column="5" />
-      <File FileName="ICC/Views/NoVideosLayout.xaml" Line="17" Column="35" />
-      <File FileName="ICC/Pages/SettingsPage.xaml.cs" Line="13" Column="10" />
+      <File FileName="ICC/Views/VideosListLayout.xaml" Line="15" Column="37" />
+      <File FileName="ICC/Views/VideosListLayout.xaml.cs" Line="18" Column="5" />
       <File FileName="ICC/Pages/HomePage.xaml.cs" Line="9" Column="34" />
-      <File FileName="ICC/App.xaml.cs" Line="10" Column="35" />
-      <File FileName="ICC/App.xaml" Line="7" Column="1" />
-      <File FileName="ICC/Pages/SettingsPage.xaml" Line="15" Column="23" />
-      <File FileName="iOS/CustomRenders/TextCellCustomRenderer.cs" Line="7" Column="34" />
-      <File FileName="iOS/Main.cs" Line="21" Column="1" />
-      <File FileName="ICC/obj/Debug/ICC.Pages.SettingsPage.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="ICC/Views/VideosListLayout.xaml" Line="12" Column="42" />
-      <File FileName="ICC/Views/TextCellDisclosure.cs" Line="12" Column="1" />
-      <File FileName="ICC/Views/VideosListLayout.xaml.cs" Line="14" Column="71" />
+      <File FileName="ICC/Pages/HomePage.xaml" Line="20" Column="14" />
+      <File FileName="ICC/App.xaml.cs" Line="12" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

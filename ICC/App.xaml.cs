@@ -1,5 +1,6 @@
 ﻿using Xamarin.Forms;
 using ICC.Pages;
+using ICC.Views;
 
 namespace ICC
 {
@@ -9,7 +10,7 @@ namespace ICC
         {
             InitializeComponent();
 
-            MainPage = new HomePage();
+            MainPage = new VideosListLayout();
 
             //var tabbedPage = new TabbedPage();
             //tabbedPage.Children.Add(new HomePage());

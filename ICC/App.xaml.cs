@@ -11,6 +11,12 @@ namespace ICC
 
             MainPage = new HomePage();
 
+            //var tabbedPage = new TabbedPage();
+            //tabbedPage.Children.Add(new HomePage());
+            //tabbedPage.Children.Add(new SettingsPage());
+
+            //MainPage = tabbedPage;
+
             //var home = new HomePageEmpty();
 
             //HomePageEmpty.MyNewMthod(home);

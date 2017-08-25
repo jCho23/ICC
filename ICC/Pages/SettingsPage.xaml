@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="ICC.Pages.SettingsPage"
-    Padding= "0, 20, 0, 0">
+    Padding= "0, 20, 0, 0"
+
+    xmlns:local="clr-namespace:ICC.Views;assembly=ICC" >
 
     <TableView
         Intent= "Settings">
@@ -38,7 +41,7 @@
                 <TableSection
                     Title= "More">
 
-                    <TextCell
+                    <local:TextCellDisclosure
                         Text= "Feedback" />
 
                 </TableSection>

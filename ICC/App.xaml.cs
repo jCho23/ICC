@@ -1,6 +1,7 @@
 ﻿using Xamarin.Forms;
 using ICC.Pages;
 using ICC.Views;
+using Plugin.MediaManager.Forms;
 
 namespace ICC
 {
@@ -8,11 +9,11 @@ namespace ICC
     {
         public App()
         {
-            //var workaround = typeof(VideoView);
+            var workaround = typeof(VideoView);
 
             InitializeComponent();
 
-            MainPage = new VideosListLayout();
+            MainPage = new NavigationPage(new VideosListLayout());
 
             //var tabbedPage = new TabbedPage();
             //tabbedPage.Children.Add(new HomePage());

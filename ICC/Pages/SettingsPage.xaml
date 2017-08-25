@@ -28,6 +28,16 @@
                 </TableSection>
 
                 <TableSection
+                    Title= "Playback Quality">
+
+                     <local:TextCellDisclosure
+                        Text= "Wi-Fi" />
+
+                      <local:TextCellDisclosure
+                        Text= "Cellular" />
+                </TableSection>
+
+                <TableSection
                     Title= "Video">
 
                     <SwitchCell

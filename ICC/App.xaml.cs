@@ -8,6 +8,8 @@ namespace ICC
     {
         public App()
         {
+            //var workaround = typeof(VideoView);
+
             InitializeComponent();
 
             MainPage = new VideosListLayout();

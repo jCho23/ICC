@@ -28,13 +28,15 @@
                 </TableSection>
 
                 <TableSection
-                    Title= "Playback Quality">
+                    Title= "Playback Quality" >
+                   
+                                <local:TextCellDisclosure
+                                    Text= "Wi-Fi" 
+                                    x:Name= "wiFi"/>
 
-                     <local:TextCellDisclosure
-                        Text= "Wi-Fi" />
-
-                      <local:TextCellDisclosure
-                        Text= "Cellular" />
+                                <local:TextCellDisclosure
+                                    Text= "Cellular" />
+                        
                 </TableSection>
 
                 <TableSection
@@ -53,6 +55,7 @@
                     Title= "More">
 
                     <local:TextCellDisclosure
+                        x:Name= "feedBack"
                         Text= "Feedback" />
 
                     <ViewCell>

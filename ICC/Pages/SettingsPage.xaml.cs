@@ -7,7 +7,20 @@ namespace ICC.Pages
 {
     public partial class SettingsPage : ContentPage
     {
-        public SettingsPage()
+		//void Handle_Tapped(object sender, System.EventArgs e)
+		//{
+  //          var page = new WiFiPage();
+  //          page.WiFi.ItemSelected += (source, args) =>
+		//	{
+		//		wiFi.Text = args.SelectedItem.ToString();
+		//		Navigation.PopAsync();
+		//	};
+
+		//	Navigation.PushAsync(page);
+		//}
+
+
+		public SettingsPage()
         {
             InitializeComponent();
         }

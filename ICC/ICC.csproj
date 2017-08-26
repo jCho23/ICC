@@ -43,6 +43,9 @@
     <EmbeddedResource Include="Views\MyCustomViewCell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\WiFiPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -69,6 +72,9 @@
       <DependentUpon>MyCustomViewCell.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\TextCellDisclosure.cs" />
+    <Compile Include="Pages\WiFiPage.xaml.cs">
+      <DependentUpon>WiFiPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\" />

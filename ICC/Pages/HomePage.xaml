@@ -13,8 +13,12 @@
             <views:NoVideosLayout/>
     </ContentPage>
 
-    <pages:SettingsPage 
+    <NavigationPage
         Title= "Settings" 
-        Icon= "SettingsIcon.png" />
-
+        Icon= "SettingsIcon.png" >
+        <x:Arguments>
+            <pages:SettingsPage />
+        </x:Arguments>    
+    </NavigationPage>
+    
 </TabbedPage>

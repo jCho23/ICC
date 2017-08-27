@@ -14,6 +14,7 @@ namespace ICC.Pages
 		public HomePage()
         {
             InitializeComponent();
+
         }
 
         //public static void MyNewMthod()

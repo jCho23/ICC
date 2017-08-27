@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="ICC.Pages.SettingsPage"
-    Padding= "0, 20, 0, 0"
-
-    xmlns:local="clr-namespace:ICC.Views;assembly=ICC" >
+    
+    xmlns:local="clr-namespace:ICC.Views;assembly=ICC" 
+    Title= "Settings">
 
     <TableView
         Intent= "Settings" >
-
         <TableView.Root>
             <TableRoot
                 Title= "Settings">
-
+                
                 <TableSection
                     Title= "Security and Alerts" >
 
@@ -29,7 +27,6 @@
 
                 <TableSection
                     Title= "Playback Quality" >
-
                     <ViewCell
                         Tapped= "OnWiFi"> 
                         <StackLayout
@@ -42,16 +39,16 @@
                             <local:TextCellDisclosure
                                 Text= "Cellular" />-->
 
-                                <Label 
-                                    Text= "Wi-Fi" 
-                                    VerticalOptions= "Center" />
-                                <Label
-                                    x:Name= "wiFi"
-                                    VerticalOptions= "Center"
-                                    HorizontalOptions= "EndAndExpand"
-                                    Text= "None"
-                                    TextColor= "Gray" />
-                            </StackLayout>
+                            <Label 
+                                Text= "Wi-Fi" 
+                                VerticalOptions= "Center" />
+                            <Label
+                                x:Name= "wiFi"
+                                VerticalOptions= "Center"
+                                HorizontalOptions= "EndAndExpand"
+                                Text= "None"
+                                TextColor= "Gray" />
+                        </StackLayout>
                     </ViewCell>
 
                     <ViewCell
@@ -70,12 +67,10 @@
                                 TextColor= "Gray" />
                         </StackLayout>
                     </ViewCell>
-         
                 </TableSection>
 
                 <TableSection
                     Title= "Video">
-
                     <SwitchCell
                         Text= "Upload HD"
                         On= "true" />
@@ -87,7 +82,6 @@
 
                 <TableSection
                     Title= "More">
-
                     <local:TextCellDisclosure
                         x:Name= "feedBack"
                         Text= "Feedback" />

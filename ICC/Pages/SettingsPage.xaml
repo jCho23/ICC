@@ -52,20 +52,25 @@
                                     Text= "None"
                                     TextColor= "Gray" />
                             </StackLayout>
-                     </ViewCell>
+                    </ViewCell>
 
-                     <ViewCell>
-                        <StackLayout>
+                    <ViewCell
+                        Tapped="OnCellular">
+                        <StackLayout
+                            Orientation= "Horizontal"
+                            Padding= "13, 5" >
                             <Label 
-                                Text= "hh"/>
-
-
+                                Text= "Cellular"
+                                VerticalOptions= "Center"/>
+                            <Label
+                                x:Name= "cellular"
+                                VerticalOptions= "Center"
+                                HorizontalOptions= "EndAndExpand"
+                                Text= "None"
+                                TextColor= "Gray" />
                         </StackLayout>
-
-
-                        </ViewCell>
-
-                    
+                    </ViewCell>
+         
                 </TableSection>
 
                 <TableSection

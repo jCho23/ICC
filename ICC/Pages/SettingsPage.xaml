@@ -29,14 +29,43 @@
 
                 <TableSection
                     Title= "Playback Quality" >
-                   
-                                <local:TextCellDisclosure
-                                    Text= "Wi-Fi" 
-                                    x:Name= "wiFi"/>
 
-                                <local:TextCellDisclosure
-                                    Text= "Cellular" />
-                        
+                    <ViewCell
+                        Tapped= "OnWiFi"> 
+                        <StackLayout
+                            Orientation= "Horizontal"
+                            Padding= "13, 5" >
+                          <!--  <local:TextCellDisclosure
+                                Text= "Wi-Fi" 
+                                x:Name= "wiFi"/>
+
+                            <local:TextCellDisclosure
+                                Text= "Cellular" />-->
+
+                                <Label 
+                                    Text= "Wi-Fi" 
+                                    VerticalOptions= "Center" />
+                                <Label
+                                    x:Name= "wiFi"
+                                    VerticalOptions= "Center"
+                                    HorizontalOptions= "EndAndExpand"
+                                    Text= "None"
+                                    TextColor= "Gray" />
+                            </StackLayout>
+                     </ViewCell>
+
+                     <ViewCell>
+                        <StackLayout>
+                            <Label 
+                                Text= "hh"/>
+
+
+                        </StackLayout>
+
+
+                        </ViewCell>
+
+                    
                 </TableSection>
 
                 <TableSection

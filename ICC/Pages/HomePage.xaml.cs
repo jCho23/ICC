@@ -13,10 +13,7 @@ namespace ICC.Pages
 
 		public HomePage()
         {
-            //VideoViewRenderer.Init()
-                             
             InitializeComponent();
-
         }
 
         //public static void MyNewMthod()

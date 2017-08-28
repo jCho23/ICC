@@ -13,8 +13,6 @@
     Title= "No Videos" 
     Icon= "batmanIcon.png" >
 
-     
     <views:NoVideosLayout/>
-    
-    
+
 </localPages:BaseContentPage>

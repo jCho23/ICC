@@ -1,28 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<TabbedPage 
+<localPages:BaseContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:views= "clr-namespace:ICC.Views"
     x:Class="ICC.Pages.HomePage"
-    BackgroundColor="White"
-    xmlns:pages= "clr-namespace:ICC.Pages"
-    xmlns:views= "clr-namespace:ICC.Views">-->
-
-    <ContentPage 
-        xmlns="http://xamarin.com/schemas/2014/forms" 
-        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-        xmlns:views= "clr-namespace:ICC.Views"
-        x:Class="ICC.Pages.HomePage"
-        Title= "No Videos" 
-        Icon= "batmanIcon.png" >
-            <views:NoVideosLayout/>
-    </ContentPage>
-
-<!--    <NavigationPage
-        Title= "Settings" 
-        Icon= "SettingsIcon.png" >
-        <x:Arguments>
-            <pages:SettingsPage />
-        </x:Arguments>    
-    </NavigationPage>
     
-</TabbedPage>-->
+    xmlns:localPages="clr-namespace:ICC.Pages;assembly=ICC"
+    xmlns:localViewModels="clr-namespace:ICC.ViewModels;assembly=ICC"
+    
+    Title= "No Videos" 
+    Icon= "batmanIcon.png" >
+
+    <ContentPage> 
+        <views:NoVideosLayout/>
+    </ContentPage>
+    
+</localPages:BaseContentPage>

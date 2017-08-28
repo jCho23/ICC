@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{D0FF348A-459C-41B1-8D28-A67317E0597D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/Pages/BaseContentPage.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/Pages/BaseTabbedPage.xaml">
     <Files>
       <File FileName="ICC/Pages/SettingsPage.xaml" Line="7" Column="5" />
       <File FileName="ICC/Pages/HomePage.xaml.cs" Line="5" Column="22" NotebookId="1" />
@@ -7,7 +7,6 @@
       <File FileName="ICC/ViewModels/SettingsViewModel.cs" Line="2" Column="26" NotebookId="1" />
       <File FileName="ICC/Pages/BaseTabbedPage.xaml.cs" Line="8" Column="53" NotebookId="1" />
       <File FileName="ICC/Pages/BaseTabbedPage.xaml" Line="9" Column="5" NotebookId="1" />
-      <File FileName="ICC/Pages/BaseContentPage.cs" Line="7" Column="30" NotebookId="1" />
       <File FileName="ICC/Pages/SettingsPage.xaml.cs" Line="10" Column="75" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using Xamarin.Forms;
 using ICC.Views;
 using ICC.ViewModels;
 
 namespace ICC.Pages
 {
-    public partial class HomePage : ContentPage
+    public partial class HomePage : BaseContentPage<HomePageViewModel>
     {
         //private NoVideosLayout noVideoLayout = new NoVideosLayout();
 		//private VideosListLayout videosListLayout = new VideosListLayout();

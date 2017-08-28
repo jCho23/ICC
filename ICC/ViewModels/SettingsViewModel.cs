@@ -1,5 +1,5 @@
 ﻿using System;
-namespace ICC.ViewModels
+namespace ICC.ViewModels 
 {
     public class SettingsViewModel : BaseViewModel
     {

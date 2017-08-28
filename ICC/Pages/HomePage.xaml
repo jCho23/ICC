@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TabbedPage 
+<!--<TabbedPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="ICC.Pages.HomePage"
     BackgroundColor="White"
     xmlns:pages= "clr-namespace:ICC.Pages"
-    xmlns:views= "clr-namespace:ICC.Views">
+    xmlns:views= "clr-namespace:ICC.Views">-->
 
     <ContentPage 
+        xmlns="http://xamarin.com/schemas/2014/forms" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+        xmlns:views= "clr-namespace:ICC.Views"
+        x:Class="ICC.Pages.HomePage"
         Title= "No Videos" 
-        Icon= "SettingsIcon.png" >
+        Icon= "batmanIcon.png" >
             <views:NoVideosLayout/>
     </ContentPage>
 
-    <NavigationPage
+<!--    <NavigationPage
         Title= "Settings" 
         Icon= "SettingsIcon.png" >
         <x:Arguments>
@@ -21,4 +25,4 @@
         </x:Arguments>    
     </NavigationPage>
     
-</TabbedPage>
+</TabbedPage>-->

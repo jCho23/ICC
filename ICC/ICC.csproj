@@ -49,13 +49,16 @@
     <EmbeddedResource Include="Pages\CellularPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\BaseTabbedPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Pages\BasePage.cs" />
+    <Compile Include="Pages\BaseContentPage.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="Pages\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
@@ -80,6 +83,9 @@
     </Compile>
     <Compile Include="Pages\CellularPage.xaml.cs">
       <DependentUpon>CellularPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\BaseTabbedPage.xaml.cs">
+      <DependentUpon>BaseTabbedPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

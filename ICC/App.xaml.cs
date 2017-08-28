@@ -2,9 +2,11 @@
 using ICC.Pages;
 using ICC.Views;
 using Plugin.MediaManager.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace ICC
 {
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class App : Application
     {
         public App()
@@ -13,7 +15,11 @@ namespace ICC
 
             InitializeComponent();
 
-            MainPage = new NavigationPage(new HomePage());
+            //MainPage = new NavigationPage(new HomePage());
+
+            MainPage = new BaseTabbedPage();
+
+            //new NavigationPage(new HomePage());
 
             //var tabbedPage = new TabbedPage();
             //tabbedPage.Children.Add(new HomePage());

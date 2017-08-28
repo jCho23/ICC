@@ -3,16 +3,19 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 using ICC.Views;
+using ICC.ViewModels;
 
 namespace ICC.Pages
 {
-    public partial class HomePage : TabbedPage
+    public partial class HomePage : ContentPage
     {
         //private NoVideosLayout noVideoLayout = new NoVideosLayout();
 		//private VideosListLayout videosListLayout = new VideosListLayout();
 
 		public HomePage()
         {
+            //VideoViewRenderer.Init()
+                             
             InitializeComponent();
 
         }

@@ -3,9 +3,11 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
+using ICC.ViewModels;
+
 namespace ICC.Pages
 {
-    public partial class SettingsPage : ContentPage
+    public partial class SettingsPage : BaseContentPage<SettingsViewModel>
     {
         void OnWiFi(object sender, System.EventArgs e)
 		{

@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{D0FF348A-459C-41B1-8D28-A67317E0597D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/Pages/CellularPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/ViewModels/SettingsViewModel.cs">
     <Files>
-      <File FileName="ICC/Pages/SettingsPage.xaml" Line="9" Column="22" />
-      <File FileName="ICC/Pages/HomePage.xaml" Line="23" Column="5" />
-      <File FileName="ICC/Pages/HomePage.xaml.cs" Line="17" Column="13" />
-      <File FileName="ICC/App.xaml.cs" Line="16" Column="57" />
-      <File FileName="ICC/Pages/CellularPage.xaml.cs" Line="23" Column="27" />
+      <File FileName="ICC/Pages/SettingsPage.xaml" Line="11" Column="41" />
+      <File FileName="ICC/Pages/SettingsPage.xaml.cs" Line="10" Column="63" />
+      <File FileName="ICC/Pages/HomePage.xaml.cs" Line="10" Column="48" />
+      <File FileName="ICC/Pages/HomePage.xaml" Line="10" Column="17" />
+      <File FileName="ICC/ViewModels/SettingsViewModel.cs" Line="2" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

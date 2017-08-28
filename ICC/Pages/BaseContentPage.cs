@@ -2,7 +2,7 @@
 using ICC.ViewModels;
 using Xamarin.Forms;
 
-namespace ICC
+namespace ICC.Pages
 {
 	public class BaseContentPage<T> : ContentPage where T : BaseViewModel, new()
 	{

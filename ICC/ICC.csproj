@@ -87,6 +87,7 @@
     <Compile Include="Pages\BaseTabbedPage.xaml.cs">
       <DependentUpon>BaseTabbedPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\HomePageViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\" />

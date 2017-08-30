@@ -1,12 +1,12 @@
 ﻿using System;
-using ICC.ViewModels;
 using Xamarin.Forms;
+using ICC.ViewModels;
 
 namespace ICC.Pages
 {
-	public class BaseContentPage<T> : ContentPage where T : BaseViewModel, new()
-	{
-		T _viewModel;
+    public class BaseContentPage<T> : ContentPage where T : BaseViewModel, new()
+    {
+        T _viewModel;
 
 		public BaseContentPage()
 		{

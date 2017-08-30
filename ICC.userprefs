@@ -1,19 +1,17 @@
 ﻿<Properties StartupConfiguration="{D0FF348A-459C-41B1-8D28-A67317E0597D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/Pages/SettingsPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/Pages/SettingsPage.xaml">
     <Files>
-      <File FileName="ICC/Pages/HomePage.xaml.cs" Line="16" Column="35" />
-      <File FileName="ICC/Pages/HomePage.xaml" Line="19" Column="1" />
-      <File FileName="ICC/ViewModels/HomePageViewModel.cs" Line="4" Column="35" />
-      <File FileName="ICC/Pages/CellularPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="ICC/Pages/BaseTabbedPage.xaml" Line="19" Column="1" />
-      <File FileName="ICC/Pages/CellularPage.xaml" Line="11" Column="1" />
-      <File FileName="ICC/Pages/BaseTabbedPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="ICC/Pages/BaseContentPage.cs" Line="1" Column="1" />
       <File FileName="ICC/Pages/WiFiPage.xaml" Line="11" Column="1" />
-      <File FileName="ICC/Pages/SettingsPage.xaml" Line="109" Column="1" />
+      <File FileName="ICC/Pages/SettingsPage.xaml" Line="4" Column="5" />
       <File FileName="ICC/ViewModels/BaseViewModel.cs" Line="1" Column="1" />
       <File FileName="ICC/ViewModels/SettingsViewModel.cs" Line="1" Column="1" />
-      <File FileName="ICC/Pages/SettingsPage.xaml.cs" Line="33" Column="20" />
+      <File FileName="ICC/Pages/SettingsPage.xaml.cs" Line="18" Column="27" />
+      <File FileName="ICC/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="ICC/Views/VideosListLayout.xaml" Line="47" Column="15" />
+      <File FileName="ICC/Pages/WiFiPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="ICC/Views/MyCustomViewCell.xaml.cs" Line="1" Column="1" />
+      <File FileName="ICC/Views/NoVideosLayout.xaml.cs" Line="1" Column="1" />
+      <File FileName="ICC/Views/VideosListLayout.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="ICC/Pages/SettingsPage.xaml">
     <Files>
       <File FileName="ICC/Pages/WiFiPage.xaml" Line="11" Column="1" />
-      <File FileName="ICC/Pages/SettingsPage.xaml" Line="4" Column="5" />
+      <File FileName="ICC/Pages/SettingsPage.xaml" Line="35" Column="43" />
       <File FileName="ICC/ViewModels/BaseViewModel.cs" Line="1" Column="1" />
       <File FileName="ICC/ViewModels/SettingsViewModel.cs" Line="1" Column="1" />
       <File FileName="ICC/Pages/SettingsPage.xaml.cs" Line="18" Column="27" />

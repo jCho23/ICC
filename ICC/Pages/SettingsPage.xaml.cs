@@ -14,7 +14,7 @@ namespace ICC.Pages
             var page = new WiFiPage();
             page.WiFi.ItemSelected += (source, args) =>
 			{
-				wiFi.Text = args.SelectedItem.ToString();
+                wiFi.Text = args.SelectedItem.ToString();
 				Navigation.PopAsync();
 			};
 

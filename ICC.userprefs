@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{D0FF348A-459C-41B1-8D28-A67317E0597D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/App.xaml.cs">
     <Files>
       <File FileName="ICC/Views/VideosListLayout.xaml" Line="39" Column="19" />
       <File FileName="ICC/Views/VideosListLayout.xaml.cs" Line="17" Column="1" />
-      <File FileName="ICC/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="ICC/App.xaml.cs" Line="20" Column="47" />
       <File FileName="iOS/Main.cs" Line="1" Column="1" />
       <File FileName="iOS/AppDelegate.cs" Line="1" Column="1" />
     </Files>

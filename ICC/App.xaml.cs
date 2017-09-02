@@ -17,7 +17,7 @@ namespace ICC
 
             //MainPage = new NavigationPage(new HomePage());
 
-            MainPage = new BaseTabbedPage();
+            MainPage = new VideosListLayout();
 
             //new NavigationPage(new HomePage());
 

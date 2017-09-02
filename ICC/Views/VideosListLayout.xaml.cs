@@ -13,11 +13,7 @@ namespace ICC.Views
 
         public VideosListLayout()
         {
-
-
-
 			InitializeComponent();
-
 
 			CrossMediaManager.Current.PlayingChanged += (sender, e) =>
 			{

@@ -3,7 +3,7 @@
     <Files>
       <File FileName="ICC/Views/VideosListLayout.xaml" Line="41" Column="15" />
       <File FileName="ICC/Views/VideosListLayout.xaml.cs" Line="17" Column="1" />
-      <File FileName="ICC/App.xaml.cs" Line="20" Column="47" />
+      <File FileName="ICC/App.xaml.cs" Line="19" Column="13" />
       <File FileName="iOS/Main.cs" Line="1" Column="1" />
       <File FileName="iOS/AppDelegate.cs" Line="1" Column="1" />
     </Files>

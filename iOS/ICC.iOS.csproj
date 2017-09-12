@@ -107,6 +107,12 @@
     <Reference Include="Plugin.MediaManager.Forms.iOS">
       <HintPath>..\packages\Plugin.MediaManager.Forms.0.4.3\lib\xamarinios\Plugin.MediaManager.Forms.iOS.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ICC\ICC.csproj">

@@ -3,46 +3,49 @@ using System.Collections.Generic;
 using Xamarin.Forms;
 using ICC.Views;
 using ICC.ViewModels;
+using ICC.Services;
+using ICC.Models;
 
 namespace ICC.Pages
 {
     public partial class HomePage : BaseContentPage<HomePageViewModel>
     {
-        //private NoVideosLayout noVideoLayout = new NoVideosLayout();
-		//private VideosListLayout videosListLayout = new VideosListLayout();
+        private NoVideosLayout noVideoLayout = new NoVideosLayout();
+		private VideosListLayout2 videosListLayout = new VideosListLayout2();
 
 		public HomePage()
         {
             InitializeComponent();
         }
 
-        //public static void MyNewMthod()
-        //{
-           
-        //}
+		protected override async void OnAppearing()
+		{
+			base.OnAppearing();
 
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
+            videosListLayout.ItemSelected += VideoSelected;
 
+			var videos = await VideoHelper.GetAllVideosAsync();
 
-            //CrossMediaManager.Current.Play(videoModel.VideoUrl, MediaFileType.Video);
-			//Make call through ViewModel to get updated list of videos from Azure Function
-			//ViewModel.UpdateVideos()
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                if (videos.Count <= 0)
+                {
+                    Content = noVideoLayout;
+                }
+                else
+                {
+                    videosListLayout.ItemsSource = videos;
+                    Content = videosListLayout;
+                }
+            });
+		}
 
-			//if(ViewMode.Videos.Count <= 0)
-			//{
-			//    Content = noVideoLayout;
-			//}
-			//else
-			//{
-			//    Content = videosListLayout;
-			//}
+		void VideoSelected(object sender, SelectedItemChangedEventArgs e)
+		{
+			var videoSelected = e.SelectedItem as VideoData;
 
-			//videoList.ItemSelected += (obj,e) => {
-            //    var videoModel = e.SelectedItem as VideoModel;
-			//    CrossMediaManager.Current.Play(videoModel.VideoUrl, MediaFileType.Video);
-			//};
+            if(videoSelected != null)
+			    Device.BeginInvokeOnMainThread(async () => await Navigation.PushAsync(new NativeVideoPlayerPage(videoSelected.MediaAssetUri)));
 		}
     }
 }

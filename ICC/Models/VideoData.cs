@@ -6,8 +6,7 @@ namespace ICC.Models
 {
     public class VideoData
     {
-        public string Name { get; set; }
-        public string VideoUrl { get; set; }
-        public TimeSpan VideoDuration { get; set; }
+        public string MediaAssetUri { get; set; }
+        public string MediaAssetName { get; set; }
     }
 }

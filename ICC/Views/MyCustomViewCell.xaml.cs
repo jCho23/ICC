@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using ICC.Models;
 using Xamarin.Forms;
 //using ICC.Models;
 
@@ -17,9 +17,9 @@ namespace ICC.Views
         {
             base.OnBindingContextChanged();
 
-            //var item = BindingContext as VideoData;
+            var item = BindingContext as VideoData;
 
-            //MyLabel.Text = item.Name;
+            MyLabel.Text = item.MediaAssetName;
         }
     }
 }

@@ -11,21 +11,19 @@ namespace ICC
     {
         public App()
         {
-            var workaround = typeof(VideoView);
-
             InitializeComponent();
 
             //MainPage = new NavigationPage(new HomePage());
 
-            MainPage = new VideosListLayout2();
+            //MainPage = new VideosListLayout();
 
             //new NavigationPage(new HomePage());
 
-            //var tabbedPage = new TabbedPage();
-            //tabbedPage.Children.Add(new HomePage());
-            //tabbedPage.Children.Add(new SettingsPage());
+            var tabbedPage = new TabbedPage();
+            tabbedPage.Children.Add(new NavigationPage(new HomePage()));
+            tabbedPage.Children.Add(new SettingsPage());
 
-            //MainPage = tabbedPage;
+            MainPage = tabbedPage;
 
             //var home = new HomePageEmpty();
 

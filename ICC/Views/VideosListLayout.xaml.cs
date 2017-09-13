@@ -8,9 +8,9 @@ using ICC.Pages;
 
 namespace ICC.Views
 {
-    public partial class VideosListLayout2 : ListView
+    public partial class VideosListLayout : ListView
     {
-        public VideosListLayout2()
+        public VideosListLayout()
         {
             InitializeComponent();
         }

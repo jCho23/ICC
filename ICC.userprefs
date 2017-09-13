@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{D0FF348A-459C-41B1-8D28-A67317E0597D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/Pages/HomePage.xaml.cs">
     <Files>
       <File FileName="ICC/Views/VideosListLayout2.xaml" Line="7" Column="23" />
       <File FileName="ICC/Views/VideosListLayout2.xaml.cs" Line="16" Column="10" />
@@ -7,14 +7,11 @@
       <File FileName="ICC/App.xaml.cs" Line="21" Column="13" />
       <File FileName="ICC/Pages/HomePage.xaml" Line="17" Column="1" />
       <File FileName="ICC/Services/VideoHelper.cs" Line="10" Column="29" />
-      <File FileName="iOS/Main.cs" Line="17" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/junecho/Projects/ICC/ICC/Pages/HomePage.xaml.cs" relfile="ICC/Pages/HomePage.xaml.cs" line="29" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

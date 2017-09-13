@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ICC.Views.MyCustomViewCell">
+<ViewCell 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="ICC.Views.MyCustomViewCell">
+
     <StackLayout>
-        <Label x:Name="MyLabel" Text="{Binding Name}"/>
+        <Label
+            x:Name="MyLabel" 
+            Text="{Binding Name}"/>
     </StackLayout>
 </ViewCell>

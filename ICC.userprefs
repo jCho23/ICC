@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{D0FF348A-459C-41B1-8D28-A67317E0597D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/Pages/HomePage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/Pages/NativeVideoPlayerPage.cs">
     <Files>
       <File FileName="ICC/Pages/HomePage.xaml" Line="17" Column="1" />
       <File FileName="ICC/Pages/HomePage.xaml.cs" Line="14" Column="63" />
+      <File FileName="ICC/Pages/NativeVideoPlayerPage.cs" Line="17" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

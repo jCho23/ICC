@@ -11,7 +11,7 @@ namespace ICC.Pages
     public partial class HomePage : BaseContentPage<HomePageViewModel>
     {
         private NoVideosLayout noVideoLayout = new NoVideosLayout();
-		private VideosListLayout2 videosListLayout = new VideosListLayout2();
+		private VideosListLayout videosListLayout = new VideosListLayout();
 
 		public HomePage()
         {

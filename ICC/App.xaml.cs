@@ -13,12 +13,6 @@ namespace ICC
         {
             InitializeComponent();
 
-            //MainPage = new NavigationPage(new HomePage());
-
-            //MainPage = new VideosListLayout();
-
-            //new NavigationPage(new HomePage());
-
             var tabbedPage = new TabbedPage();
             tabbedPage.Children.Add(new NavigationPage(new HomePage()));
             tabbedPage.Children.Add(new SettingsPage());

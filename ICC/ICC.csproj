@@ -37,9 +37,6 @@
     <EmbeddedResource Include="Views\NoVideosLayout.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\VideosListLayout.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="Views\MyCustomViewCell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -72,9 +69,6 @@
     </Compile>
     <Compile Include="Views\NoVideosLayout.xaml.cs">
       <DependentUpon>NoVideosLayout.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\VideosListLayout.xaml.cs">
-      <DependentUpon>VideosListLayout.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\SettingsViewModel.cs" />
     <Compile Include="Views\MyCustomViewCell.xaml.cs">

@@ -1,5 +1,17 @@
 ﻿<Properties StartupConfiguration="{D0FF348A-459C-41B1-8D28-A67317E0597D}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/Pages/HomePage.xaml.cs">
+    <Files>
+      <File FileName="ICC/Views/MyCustomViewCell.xaml.cs" Line="25" Column="36" />
+      <File FileName="ICC/Pages/HomePage.xaml.cs" Line="34" Column="38" />
+      <File FileName="ICC/Pages/HomePage.xaml" Line="17" Column="1" />
+      <File FileName="ICC/Views/VideosListLayout.xaml" Line="13" Column="45" />
+      <File FileName="ICC/Models/VideoData.cs" Line="1" Column="1" />
+      <File FileName="ICC/App.xaml" Line="7" Column="1" />
+      <File FileName="ICC/App.xaml.cs" Line="29" Column="1" />
+      <File FileName="ICC/Pages/NativeVideoPlayerPage.cs" Line="15" Column="3" />
+      <File FileName="ICC/Views/MyCustomViewCell.xaml" Line="13" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

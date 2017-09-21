@@ -13,11 +13,13 @@ namespace ICC
         {
             InitializeComponent();
 
-            var tabbedPage = new TabbedPage();
-            tabbedPage.Children.Add(new NavigationPage(new HomePage()));
-            tabbedPage.Children.Add(new SettingsPage());
+            MainPage = new HomePage();
 
-            MainPage = tabbedPage;
+            //var tabbedPage = new TabbedPage();
+            //tabbedPage.Children.Add(new NavigationPage(new HomePage()));
+            //tabbedPage.Children.Add(new SettingsPage());
+
+            //MainPage = tabbedPage;
 
             //var home = new HomePageEmpty();
 

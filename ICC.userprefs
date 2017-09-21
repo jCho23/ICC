@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{D0FF348A-459C-41B1-8D28-A67317E0597D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ICC/Views/MyCustomViewCell.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.cs">
     <Files>
-      <File FileName="ICC/Services/VideoHelper.cs" Line="20" Column="24" />
-      <File FileName="ICC/Models/VideoData.cs" Line="7" Column="21" />
-      <File FileName="ICC/Pages/HomePage.xaml.cs" Line="45" Column="42" />
-      <File FileName="ICC/Views/MyCustomViewCell.xaml.cs" Line="20" Column="42" />
+      <File FileName="ICC/Services/VideoHelper.cs" Line="23" Column="55" />
+      <File FileName="ICC/Models/VideoData.cs" Line="7" Column="18" />
+      <File FileName="ICC/Pages/HomePage.xaml.cs" Line="48" Column="140" />
+      <File FileName="ICC/Views/MyCustomViewCell.xaml.cs" Line="22" Column="39" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

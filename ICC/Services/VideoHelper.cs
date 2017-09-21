@@ -17,7 +17,7 @@ namespace ICC.Services
 
         public static async Task<List<VideoData>> GetAllVideosAsync()
         {
-            var url = "http://iccfunction.azurewebsites.net/api/MCPGetVideosConsolidated";
+            var url = "http://iccfunction.azurewebsites.net/api/GetMediaAssets";
             var response = await client.GetStringAsync(url);
 
             return JsonConvert.DeserializeObject<List<VideoData>>(response);

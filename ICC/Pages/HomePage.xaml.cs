@@ -45,7 +45,7 @@ namespace ICC.Pages
 			var videoSelected = e.SelectedItem as VideoData;
 
             if(videoSelected != null)
-			    Device.BeginInvokeOnMainThread(async () => await Navigation.PushAsync(new NativeVideoPlayerPage(videoSelected.MediaAssetUri)));
+                Device.BeginInvokeOnMainThread(async () => await Navigation.PushAsync(new NativeVideoPlayerPage(videoSelected.mediaAssetUri)));
 		}
     }
 }

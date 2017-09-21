@@ -19,7 +19,7 @@ namespace ICC.Views
 
             var item = BindingContext as VideoData;
 
-            MyLabel.Text = item.MediaAssetName;
+            MyLabel.Text = item.title;
         }
     }
 }

@@ -26,21 +26,24 @@ namespace ICC.Pages
 
 			var videos = await VideoHelper.GetAllVideosAsync();
 
+            //TODO: ORIGINAL
+			//Device.BeginInvokeOnMainThread(() =>
+			//{
+			//    if (videos.Count <= 0)
+			//    {
+			//        Content = noVideoLayout;
+			//    }
+			//    else
+			//    {
+			//        videosListLayout.ItemsSource = videos;
+			//        Content = videosListLayout;
+			//    }
+			//});
+
+			//TODO: IDENTIFYING BUG
 			videosListLayout.ItemsSource = videos;
 			Content = videosListLayout;
 
-            //Device.BeginInvokeOnMainThread(() =>
-            //{
-            //    if (videos.Count <= 0)
-            //    {
-            //        Content = noVideoLayout;
-            //    }
-            //    else
-            //    {
-            //        videosListLayout.ItemsSource = videos;
-            //        Content = videosListLayout;
-            //    }
-            //});
 		}
 
 		void VideoSelected(object sender, SelectedItemChangedEventArgs e)

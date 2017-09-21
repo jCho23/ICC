@@ -19,8 +19,14 @@ namespace ICC.Views
 
             var item = BindingContext as VideoData;
 
-            MyLabel.Text = "hi";
-                //item.title;
+            //TODO: ORIGINAL
+			MyLabel.Text = item.title;
+			
+            //TODO: IDENTIFYING BUG
+            if(MyLabel.Text!=null)
+            {
+                MyLabel.Text = item.title;
+            }
         }
     }
 }

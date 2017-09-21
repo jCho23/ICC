@@ -14,22 +14,25 @@ namespace ICC
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new HomePage());
+			//TODO: ORIGINAL
 
-            //var np = new NavigationPage(new HomePage());
-            //MainPage = np;
+			//var tabbedPage = new TabbedPage();
+			//tabbedPage.Children.Add(new NavigationPage(new HomePage()));
+			//tabbedPage.Children.Add(new SettingsPage());
+
+			//MainPage = tabbedPage;
 
 
-            //var tabbedPage = new TabbedPage();
-            //tabbedPage.Children.Add(new NavigationPage(new HomePage()));
-            //tabbedPage.Children.Add(new SettingsPage());
+			//TODO: IDENTIFYING BUG
+			MainPage = new NavigationPage(new HomePage());
 
-            //MainPage = tabbedPage;
 
-            //var home = new HomePage();
+			//var np = new NavigationPage(new HomePage());
+			//MainPage = np;
 
-            //HomePageEmpty.MyNewMthod(home);
-        }
+			//var home = new HomePage();
+			//HomePageEmpty.MyNewMthod(home);
+		}
 
         protected override void OnStart()
         {

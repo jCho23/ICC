@@ -7,21 +7,26 @@ using Xamarin.Forms.Xaml;
 namespace ICC
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
+
     public partial class App : Application
     {
         public App()
         {
             InitializeComponent();
 
-            //MainPage = new HomePage();
+            MainPage = new NavigationPage(new HomePage());
 
-            var tabbedPage = new TabbedPage();
-            tabbedPage.Children.Add(new NavigationPage(new HomePage()));
-            tabbedPage.Children.Add(new SettingsPage());
+            //var np = new NavigationPage(new HomePage());
+            //MainPage = np;
 
-            MainPage = tabbedPage;
 
-            var home = new HomePage();
+            //var tabbedPage = new TabbedPage();
+            //tabbedPage.Children.Add(new NavigationPage(new HomePage()));
+            //tabbedPage.Children.Add(new SettingsPage());
+
+            //MainPage = tabbedPage;
+
+            //var home = new HomePage();
 
             //HomePageEmpty.MyNewMthod(home);
         }
